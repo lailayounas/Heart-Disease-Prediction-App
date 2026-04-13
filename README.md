@@ -21,7 +21,7 @@ Check the live app here: [Hugging Face Demo](https://huggingface.co/spaces/laila
 
 
 <!-- PUT YOUR SCREENSHOTS HERE -->
-![UI Screenshot 1]assets/Screenshot 2026-04-13 060906.png
+![UI Screenshot 1](assets/Screenshot 2026-04-13 060906.png)
 ![UI Screenshot 2](assets/main_two.png)
 
 ---
