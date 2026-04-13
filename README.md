@@ -57,7 +57,7 @@ Upload project files
 Add requirements.txt
 Hugging Face auto-builds app
 Get public URL instantly
-🐳 Docker Deployment (Optional)
+🐳 Docker Deployment
 docker build -t heart-disease-app .
 
 docker run -p 8501:8501 heart-disease-app
@@ -88,70 +88,7 @@ Clean Streamlit UI
 Real-time prediction
 Preprocessing (Scaler + Encoder)
 Cloud deployment ready
-📜 License
+ Author:
 
-This project is licensed under the MIT License.
-
-⭐ Author
-
-Built with ❤️ by You
-
-✅ IMPORTANT (READ THIS)
-
-✔ Save file as: README.md
-✔ Do NOT wrap in ```
-✔ Keep images inside: assets/
-✔ Push again after update
-
-If you want next level upgrade, I can:
-🚀 
-Make this look like a startup landing page README
-🚀 
-Add animated GIF preview
-🚀 Or 
-help you deploy it live step-by-step
-
-Just tell me 👍```plaintext
-Heart-Disease-Prediction-App/
-│
-├── app.py                # Main Streamlit app
-├── train_model.py       # Model training script
-├── heart.csv            # Dataset
-├── model.pkl            # Trained ML model
-├── scaler.pkl           # Feature scaling
-├── encoder.pkl          # Label encoding
-├── requirements.txt     # Dependencies
-├── Dockerfile           # Docker setup
-└── assets/              # Screenshots folder
-    ├── main_ui_screen.png
-    └── main_two.png
-⚙️ Installation
-1. Clone Repository
-git clone https://github.com/lailayounas/Heart-Disease-Prediction-App.git
-cd Heart-Disease-Prediction-App
-2. Install Dependencies
-pip install -r requirements.txt
-3.Run Application
-streamlit run app.py
-Then open:
-http://localhost:8501
-🐳 Docker Deployment (Optional)
-# Build Docker image
-docker build -t heart-disease-app .
-# Run container
-docker run -p 8501:8501 heart-disease-app
-🧪 Tech Stack
-Python 🐍
-Streamlit 🌐
-scikit-learn 🤖
-Pandas & NumPy 📊
-Docker 🐳
-🤝 Contributing
-Contributions are welcome!
-Fork the repo
-Create a new branch
-Commit changes
-Push and create PR
-Author:
 Built with ❤️ by laila younas
 
