@@ -16,11 +16,11 @@ It uses a trained ML model and provides real-time predictions through a simple a
 ---
 
 ## 🚀 Live Demo
-<!-- Add your Hugging Face or deployed link here if available -->
+[<!-- Add your Hugging Face or deployed link here if available -->
 Coming Soon 🚧
 
 ---
-
+](https://huggingface.co/spaces/laila123younas/cardio-predictor)
 ## 📸 App Preview
 
 <!-- PUT YOUR SCREENSHOTS HERE -->
