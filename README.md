@@ -26,11 +26,23 @@ Check the live app here: [Hugging Face Demo](https://huggingface.co/spaces/laila
 
 ---
 
-🔗 Run Locally
-1️⃣ Clone Repository
+
+
+
+## 🔗 Run Locally
+
+### 1️⃣ Clone Repository
+
+```
 git clone <your-repo-link>
 cd Heart-Disease-Prediction-App
-2️⃣ Create Virtual Environment
+```
+
+---
+
+### 2️⃣ Create Virtual Environment
+
+```
 python -m venv venv
 
 # Windows
@@ -38,30 +50,61 @@ venv\Scripts\activate
 
 # Mac/Linux
 source venv/bin/activate
-3️⃣ Install Dependencies
+```
+
+---
+
+### 3️⃣ Install Dependencies
+
+```
 pip install -r requirements.txt
-4️⃣ Run App
+```
+
+---
+
+### 4️⃣ Run App
+
+```
 streamlit run app.py
-🌐 Access URLs (After Running)
-🖥 Local URL: http://localhost:8501
-🌐 Network URL: http://192.168.10.14:8501
-☁️ Hugging Face Deployment
+```
+
+---
+
+## 🌐 Access URLs (After Running)
+
+* 🖥 Local URL: [http://localhost:8501](http://localhost:8501)
+* 🌐 Network URL: [http://192.168.10.14:8501](http://192.168.10.14:8501)
+
+---
+
+## ☁️ Hugging Face Deployment
 
 This app is deployed on Hugging Face Spaces:
 
-👉 https://huggingface.co/spaces/laila123younas/cardio-predictor
+👉 [https://huggingface.co/spaces/laila123younas/cardio-predictor](https://huggingface.co/spaces/laila123younas/cardio-predictor)
 
 Steps:
 
-Upload project files
-Add requirements.txt
-Hugging Face auto-builds app
-Get public URL instantly
-🐳 Docker Deployment
+* Upload project files
+* Add requirements.txt
+* Hugging Face auto-builds app
+* Get public URL instantly
+
+---
+
+## 🐳 Docker Deployment (Optional)
+
+```
 docker build -t heart-disease-app .
 
 docker run -p 8501:8501 heart-disease-app
-📂 Project Structure
+```
+
+---
+
+## 📂 Project Structure
+
+```
 Heart-Disease-Prediction-App/
 │
 ├── app.py
@@ -75,20 +118,36 @@ Heart-Disease-Prediction-App/
 └── assets/
     ├── main_ui_screen.png
     └── main_two.png
-⚙️ Tech Stack
-Python 🐍
-Streamlit 🌐
-scikit-learn 🤖
-Pandas & NumPy 📊
-Docker 🐳
-Hugging Face Spaces ☁️
-✨ Features
-Heart disease prediction using ML
-Clean Streamlit UI
-Real-time prediction
-Preprocessing (Scaler + Encoder)
-Cloud deployment ready
- Author:
+```
 
-Built with ❤️ by laila younas
+---
+
+## ⚙️ Tech Stack
+
+* Python 🐍
+* Streamlit 🌐
+* scikit-learn 🤖
+* Pandas & NumPy 📊
+* Docker 🐳
+* Hugging Face Spaces ☁️
+
+---
+
+## ✨ Features
+
+* Heart disease prediction using ML
+* Clean Streamlit UI
+* Real-time prediction
+* Preprocessing (Scaler + Encoder)
+* Cloud deployment ready
+
+---
+
+---
+
+## ⭐ Author
+
+Built with ❤️ by **laila younas**
+
+---
 
