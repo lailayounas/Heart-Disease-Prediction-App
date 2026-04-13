@@ -51,3 +51,33 @@ Heart-Disease-Prediction-App/
 └── assets/              # Screenshots folder
     ├── main_ui_screen.png
     └── main_two.png
+⚙️ Installation
+1. Clone Repository
+git clone https://github.com/lailayounas/Heart-Disease-Prediction-App.git
+cd Heart-Disease-Prediction-App
+2. Install Dependencies
+pip install -r requirements.txt
+3.Run Application
+streamlit run app.py
+Then open:
+http://localhost:8501
+🐳 Docker Deployment (Optional)
+# Build Docker image
+docker build -t heart-disease-app .
+# Run container
+docker run -p 8501:8501 heart-disease-app
+🧪 Tech Stack
+Python 🐍
+Streamlit 🌐
+scikit-learn 🤖
+Pandas & NumPy 📊
+Docker 🐳
+🤝 Contributing
+Contributions are welcome!
+Fork the repo
+Create a new branch
+Commit changes
+Push and create PR
+Author:
+Built with ❤️ by laila younas
+
